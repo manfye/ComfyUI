@@ -1,0 +1,142 @@
+** ComfyUI start up time: 2023-11-28 08:51:47.957752
+
+Prestartup times for custom nodes:
+   0.1 seconds: /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager
+
+Total VRAM 24576 MB, total RAM 24576 MB
+Set vram state to: SHARED
+Device: mps
+VAE dtype: torch.float32
+Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+### Loading: ComfyUI-Manager (V1.5.2)
+## ComfyUI-Manager: installing dependencies
+ Collecting GitPython (from -r /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt (line 1))
+   Obtaining dependency information for GitPython from https://files.pythonhosted.org/packages/8d/c4/82b858fb6483dfb5e338123c154d19c043305b01726a67d89532b8f8f01b/GitPython-3.1.40-py3-none-any.whl.metadata
+   Downloading GitPython-3.1.40-py3-none-any.whl.metadata (12 kB)
+ Collecting matrix-client==0.4.0 (from -r /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt (line 2))
+   Downloading matrix_client-0.4.0-py2.py3-none-any.whl (43 kB)
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.5/43.5 kB 2.2 MB/s eta 0:00:00
+ Requirement already satisfied: requests~=2.22 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from matrix-client==0.4.0->-r /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt (line 2)) (2.31.0)
+ Requirement already satisfied: urllib3~=1.21 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from matrix-client==0.4.0->-r /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt (line 2)) (1.26.16)
+ Collecting gitdb<5,>=4.0.1 (from GitPython->-r /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt (line 1))
+   Obtaining dependency information for gitdb<5,>=4.0.1 from https://files.pythonhosted.org/packages/fd/5b/8f0c4a5bb9fd491c277c21eff7ccae71b47d43c4446c9d0c6cff2fe8c2c4/gitdb-4.0.11-py3-none-any.whl.metadata
+   Downloading gitdb-4.0.11-py3-none-any.whl.metadata (1.2 kB)
+ Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->GitPython->-r /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt (line 1))
+   Obtaining dependency information for smmap<6,>=3.0.1 from https://files.pythonhosted.org/packages/a7/a5/10f97f73544edcdef54409f1d839f6049a0d79df68adbc1ceb24d1aaca42/smmap-5.0.1-py3-none-any.whl.metadata
+   Downloading smmap-5.0.1-py3-none-any.whl.metadata (4.3 kB)
+ Requirement already satisfied: charset-normalizer<4,>=2 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from requests~=2.22->matrix-client==0.4.0->-r /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt (line 2)) (2.0.4)
+ Requirement already satisfied: idna<4,>=2.5 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from requests~=2.22->matrix-client==0.4.0->-r /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt (line 2)) (3.4)
+ Requirement already satisfied: certifi>=2017.4.17 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from requests~=2.22->matrix-client==0.4.0->-r /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager/requirements.txt (line 2)) (2023.7.22)
+ Downloading GitPython-3.1.40-py3-none-any.whl (190 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 190.6/190.6 kB 7.8 MB/s eta 0:00:00
+ Downloading gitdb-4.0.11-py3-none-any.whl (62 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.7/62.7 kB 9.8 MB/s eta 0:00:00
+ Downloading smmap-5.0.1-py3-none-any.whl (24 kB)
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+ Installing collected packages: smmap, matrix-client, gitdb, GitPython
+ Successfully installed GitPython-3.1.40 gitdb-4.0.11 matrix-client-0.4.0 smmap-5.0.1
+## ComfyUI-Manager: installing dependencies done.
+### ComfyUI Revision: 1746 [00bc1630] | Released on '2023-11-28'
+
+Import times for custom nodes:
+   2.6 seconds: /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager
+
+Starting server
+
+To see the GUI go to: http://127.0.0.1:8188
+FETCH DATA from: /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+Install model 'LCM LoRA SDXL' into '/Volumes/Mac_Store/ComfyUI/models/loras/lcm/SDXL/pytorch_lora_weights.safetensors'
+Downloading https://cdn-lfs-us-1.huggingface.co/repos/1e/36/1e36aa70192fc07d27740eadda7a85e4fbc5175f93b73e5573844ab61a045dca/a764e6859b6e04047cd761c08ff0cee96413a8e004c9f07707530cd776b19141?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27pytorch_lora_weights.safetensors%3B+filename%3D%22pytorch_lora_weights.safetensors%22%3B&Expires=1701389757&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcwMTM4OTc1N319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmh1Z2dpbmdmYWNlLmNvL3JlcG9zLzFlLzM2LzFlMzZhYTcwMTkyZmMwN2QyNzc0MGVhZGRhN2E4NWU0ZmJjNTE3NWY5M2I3M2U1NTczODQ0YWI2MWEwNDVkY2EvYTc2NGU2ODU5YjZlMDQwNDdjZDc2MWMwOGZmMGNlZTk2NDEzYThlMDA0YzlmMDc3MDc1MzBjZDc3NmIxOTE0MT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=hpuGrHKvtL4-45ijxrhzyYPyoQOITHQoHQrOHQXINIrhrtL72-0fHaW9h%7E663kV6bBd4Lw-Z0Wl7YYRvjH-VRlXki88A6O2hrkj6mCkGDjBTd%7EVLJt5POv9pBZQ6ONWR0%7EPxqFxBKvvHlYVQJorg-XkFjrXtHEzzZGbZUabjzd%7EztDhuSxM8uNDpDeaKa5sk1QCoXVZdPxlQXGb3r0tssaHbhVIPwOfnK-8xoQCOTIJgldM5UTCTCNLtInxwy16rIDq6HhC7McOai5SbxkV7OPGil85MXVMwlQRXTmZfC3h4dvf0XyxAXACOf8ZNoppHiBoaJqqFZ5L7l-otfERIKQ__&Key-Pair-Id=KCD77M1F0VK2B to /Volumes/Mac_Store/ComfyUI/models/loras/lcm/SDXL/pytorch_lora_weights.safetensors
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████▍| 391938048/393855224 [00:12<00:00, 28570899.58it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 393855224/393855224 [00:12<00:00, 31181634.29it/s]
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+Install model 'kohya-ss/ControlNet-LLLite: SDXL Canny Anime' into '/Volumes/Mac_Store/ComfyUI/custom_nodes/ControlNet-LLLite-ComfyUI/models/controllllite_v01032064e_sdxl_canny_anime.safetensors'
+Downloading https://cdn-lfs.huggingface.co/repos/2c/2a/2c2abae399487a9a7dd05cf6e8ac40ea45313cb64842d79e067900ad4d3783e7/d51729ea113eee127b6ddf6db08a4e926fe42ac976e977de68fd354d3157635a?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27controllllite_v01032064e_sdxl_canny_anime.safetensors%3B+filename%3D%22controllllite_v01032064e_sdxl_canny_anime.safetensors%22%3B&Expires=1701392060&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcwMTM5MjA2MH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy8yYy8yYS8yYzJhYmFlMzk5NDg3YTlhN2RkMDVjZjZlOGFjNDBlYTQ1MzEzY2I2NDg0MmQ3OWUwNjc5MDBhZDRkMzc4M2U3L2Q1MTcyOWVhMTEzZWVlMTI3YjZkZGY2ZGIwOGE0ZTkyNmZlNDJhYzk3NmU5NzdkZTY4ZmQzNTRkMzE1NzYzNWE%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=wjFAEhbR7%7EV8-tZY3wKyjTW%7E1KypF9JV6D8KacxKXBI2tjgRDvrNsiO62t3C95MVmNcPuNgUZ7n5-4uH0ttsecKlDwOJOplrxLuZ3Gygb3I240-HKH3MJVvnpiPRcPdG0WEzieNqZjBn6atU8%7EwR5HnXXpq8HPkwAjuRVV0-1Dtcab1SFDkhjhF4tK0t3WZ81y2Hrie9z2gowHEAnfGM6nmJXqsdu%7Er8qyoCNVdk56mnsYVpWavH6h0gHEa7s%7Ea7qcX3cxwMAmRLQSZTjsR8THObYpl3dDAYkFJHuEgJUCjHom5eugy8sDqp%7E0JqrCO50Lneb1vzOCXL5gduyCr3kA__&Key-Pair-Id=KVTP0A1DKRTAX to /Volumes/Mac_Store/ComfyUI/custom_nodes/ControlNet-LLLite-ComfyUI/models/controllllite_v01032064e_sdxl_canny_anime.safetensors
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████| 46174136/46174136 [00:16<00:00, 2796896.43it/s]
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+Install model 'Stable Video Diffusion Image-to-Video (XT)' into '/Volumes/Mac_Store/ComfyUI/models/checkpoints/SVD/svd_xt.safetensors'
+Downloading https://cdn-lfs-us-1.huggingface.co/repos/6e/59/6e594adc90884e0f59c5249f166a20166135ccab3a168d824ca8ef3bc5512e8c/b2652c23d64a1da5f14d55011b9b6dce55f2e72e395719f1cd1f8a079b00a451?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27svd_xt.safetensors%3B+filename%3D%22svd_xt.safetensors%22%3B&Expires=1701391438&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcwMTM5MTQzOH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy11cy0xLmh1Z2dpbmdmYWNlLmNvL3JlcG9zLzZlLzU5LzZlNTk0YWRjOTA4ODRlMGY1OWM1MjQ5ZjE2NmEyMDE2NjEzNWNjYWIzYTE2OGQ4MjRjYThlZjNiYzU1MTJlOGMvYjI2NTJjMjNkNjRhMWRhNWYxNGQ1NTAxMWI5YjZkY2U1NWYyZTcyZTM5NTcxOWYxY2QxZjhhMDc5YjAwYTQ1MT9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPSoifV19&Signature=bPN0jUwEL5GRVfOufTQkEWV32%7EyGZ3yvzLvIn2m%7EBhZg7JVlC3zOY1H0yPiUi%7EQcvyHZ5gNF9GQ6%7EAPflRIZKeHkCC1EcdQmxoKVog5Qmqb209Y3CnDbofEddOv9zghLQ9ZBckBPfENsFzMQuWUEqP%7EaRGBj6UdfpFubKsunsV5UJbBYtx0Bv1ZKUXSKNy4m5yhG4RjUqHW1Xd%7E4FAUj3sdv-R-t-m7IOMmkv0iIZzXA9VsUWtARQFRTsPH2ChZ6wi3YYnGe0Vzak7TWnX9oAMgAoXMz13eioEo8VpKzb-p8ioaiaZTPOXJa6RBJmmrOyKe9MxsO6sJ3UNdoVVebcg__&Key-Pair-Id=KCD77M1F0VK2B to /Volumes/Mac_Store/ComfyUI/models/checkpoints/SVD/svd_xt.safetensors
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████▌| 9514385408/9559625980 [05:55<00:01, 22913623.85it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████▌| 9517105152/9559625980 [05:55<00:01, 22703872.14it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████▌| 9520709632/9559625980 [05:55<00:01, 25446119.07it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████▋| 9526083584/9559625980 [05:55<00:01, 31875091.23it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████▋| 9533095936/9559625980 [05:55<00:00, 41239145.87it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████▊| 9537748992/9559625980 [05:56<00:00, 32371201.19it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████▊| 9541648384/9559625980 [05:56<00:00, 30910802.17it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████▊| 9545187328/9559625980 [05:56<00:00, 30204642.47it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████▉| 9548529664/9559625980 [05:56<00:00, 27657830.46it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████▉| 9551544320/9559625980 [05:56<00:00, 26124860.51it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████▉| 9554329600/9559625980 [05:56<00:00, 25634754.45it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████▉| 9557803008/9559625980 [05:56<00:00, 27836558.60it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 9559625980/9559625980 [05:57<00:00, 26777065.65it/s]
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+FETCH DATA from: /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+got prompt
+ERROR:root:Failed to validate prompt for output 21:
+ERROR:root:* CheckpointLoaderSimple 16:
+ERROR:root:  - Value not in list: ckpt_name: 'sd_xl_1.0.safetensors' not in ['SVD/svd_xt.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors', 'v1-5-pruned-emaonly.ckpt']
+ERROR:root:Output will be ignored
+ERROR:root:Failed to validate prompt for output 10:
+ERROR:root:* ImageOnlyCheckpointLoader 15:
+ERROR:root:  - Value not in list: ckpt_name: 'svd_xt.safetensors' not in ['SVD/svd_xt.safetensors', 'sd_xl_base_1.0.safetensors', 'sd_xl_refiner_1.0.safetensors', 'v1-5-pruned-emaonly.ckpt']
+ERROR:root:Output will be ignored
+invalid prompt: {'type': 'prompt_outputs_failed_validation', 'message': 'Prompt outputs failed validation', 'details': '', 'extra_info': {}}
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+FETCH DATA from: /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+got prompt
+model_type EPS
+adm 2816
+Using split attention in VAE
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+Using split attention in VAE
+missing {'cond_stage_model.clip_l.logit_scale', 'cond_stage_model.clip_l.text_projection'}
+left over keys: dict_keys(['cond_stage_model.clip_l.transformer.text_model.embeddings.position_ids'])
+Requested to load SDXLClipModel
+Loading 1 new model
+Requested to load SDXL
+Loading 1 new model
+
+ERROR:root:!!! Exception during processing !!!
+ERROR:root:Traceback (most recent call last):
+  File "/Volumes/Mac_Store/ComfyUI/execution.py", line 153, in recursive_execute
+    output_data, output_ui = get_output_data(obj, input_data_all)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Mac_Store/ComfyUI/execution.py", line 83, in get_output_data
+    return_values = map_node_over_list(obj, input_data_all, obj.FUNCTION, allow_interrupt=True)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Mac_Store/ComfyUI/execution.py", line 76, in map_node_over_list
+    results.append(getattr(obj, func)(**slice_dict(input_data_all, i)))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Mac_Store/ComfyUI/nodes.py", line 1299, in sample
+    return common_ksampler(model, seed, steps, cfg, sampler_name, scheduler, positive, negative, latent_image, denoise=denoise)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Mac_Store/ComfyUI/nodes.py", line 1269, in common_ksampler
+    samples = comfy.sample.sample(model, noise, steps, cfg, sampler_name, scheduler, positive, negative, latent_image,
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Mac_Store/ComfyUI/comfy/sample.py", line 100, in sample
+    samples = sampler.sample(noise, positive_copy, negative_copy, cfg=cfg, latent_image=latent_image, start_step=start_step, last_step=last_step, force_full_denoise=force_full_denoise, denoise_mask=noise_mask, sigmas=sigmas, callback=callback, disable_pbar=disable_pbar, seed=seed)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Mac_Store/ComfyUI/comfy/samplers.py", line 711, in sample
+    return sample(self.model, noise, positive, negative, cfg, self.device, sampler, sigmas, self.model_options, latent_image=latent_image, denoise_mask=denoise_mask, callback=callback, disable_pbar=disable_pbar, seed=seed)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Mac_Store/ComfyUI/comfy/samplers.py", line 617, in sample
+    samples = sampler.sample(model_wrap, sigmas, extra_args, callback, noise, latent_image, denoise_mask, disable_pbar)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Mac_Store/ComfyUI/comfy/samplers.py", line 521, in sample
+    return uni_pc.sample_unipc(model_wrap, noise, latent_image, sigmas, max_denoise=self.max_denoise(model_wrap, sigmas), extra_args=extra_args, noise_mask=denoise_mask, callback=callback, variant='bh2', disable=disable_pbar)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Mac_Store/ComfyUI/comfy/extra_samplers/uni_pc.py", line 892, in sample_unipc
+    x = uni_pc.sample(img, timesteps=timesteps, skip_type="time_uniform", method="multistep", order=order, lower_order_final=True, callback=callback, disable_pbar=disable)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Mac_Store/ComfyUI/comfy/extra_samplers/uni_pc.py", line 737, in sample
+    x, model_x = self.multistep_uni_pc_update(x, model_prev_list, t_prev_list, vec_t, init_order, use_corrector=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Mac_Store/ComfyUI/comfy/extra_samplers/uni_pc.py", line 483, in multistep_uni_pc_update
+    return self.multistep_uni_pc_bh_update(x, model_prev_list, t_prev_list, t, order, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Volumes/Mac_Store/ComfyUI/comfy/extra_samplers/uni_pc.py", line 665, in multistep_uni_pc_bh_update
+    rhos_c = torch.linalg.solve(R, b)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+NotImplementedError: The operator 'aten::_linalg_solve_ex.result' is not currently implemented for the MPS device. If you want this op to be added in priority during the prototype phase of this feature, please comment on https://github.com/pytorch/pytorch/issues/77764. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS.
+
+Prompt executed in 195.52 seconds
+
+Stopped server
