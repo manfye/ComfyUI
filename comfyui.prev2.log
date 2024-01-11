@@ -1,0 +1,408 @@
+** ComfyUI start up time: 2023-12-22 08:41:40.296273
+
+Prestartup times for custom nodes:
+   0.1 seconds: /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager
+
+Total VRAM 24576 MB, total RAM 24576 MB
+Forcing FP16.
+/Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+/Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+Set vram state to: SHARED
+Device: mps
+VAE dtype: torch.float32
+Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+### Loading: ComfyUI-Manager (V1.5.2)
+### ComfyUI Revision: 1851 [0834068f] | Released on '2023-12-22'
+Traceback (most recent call last):
+  File "/Volumes/Mac_Store/ComfyUI/nodes.py", line 1813, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 936, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1130, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/Volumes/Mac_Store/ComfyUI/custom_nodes/ControlNet-LLLite-ComfyUI/__init__.py'
+
+Cannot import /Volumes/Mac_Store/ComfyUI/custom_nodes/ControlNet-LLLite-ComfyUI module for custom nodes: [Errno 2] No such file or directory: '/Volumes/Mac_Store/ComfyUI/custom_nodes/ControlNet-LLLite-ComfyUI/__init__.py'
+
+Import times for custom nodes:
+   0.0 seconds (IMPORT FAILED): /Volumes/Mac_Store/ComfyUI/custom_nodes/ControlNet-LLLite-ComfyUI
+   0.4 seconds: /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager
+
+Starting server
+
+To see the GUI go to: http://127.0.0.1:8188
+FETCH DATA from: /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+got prompt
+model_type EPS
+adm 2816
+Using split attention in VAE
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+Using split attention in VAE
+missing {'cond_stage_model.clip_l.logit_scale', 'cond_stage_model.clip_l.text_projection'}
+left over keys: dict_keys(['denoiser.sigmas'])
+Requested to load SDXLClipModel
+Loading 1 new model
+Requested to load SDXL
+Loading 1 new model
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:04<00:00,  4.10s/it]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:04<00:00,  4.10s/it]
+Requested to load AutoencoderKL
+Loading 1 new model
+Prompt executed in 130.69 seconds
+got prompt
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.18it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.18it/s]
+Prompt executed in 2.72 seconds
+got prompt
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.19it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.19it/s]
+Prompt executed in 2.80 seconds
+got prompt
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.24it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.24it/s]
+Prompt executed in 2.53 seconds
+got prompt
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.26it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.26it/s]
+Prompt executed in 2.72 seconds
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+Install custom node 'Derfuu_ComfyUI_ModdedNodes'
+install: ['https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes']
+Download: git clone 'https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes'
+0it [00:00, ?it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 213.0/213.0 [00:01<00:00, 126.87it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 213.0/213.0 [00:01<00:00, 126.85it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 130.0/130.0 [00:01<00:00, 76.87it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 130.0/130.0 [00:01<00:00, 76.86it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 213.0/213.0 [00:01<00:00, 125.26it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 213.0/213.0 [00:01<00:00, 125.26it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 119.0/119.0 [00:01<00:00, 69.69it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 119.0/119.0 [00:01<00:00, 69.69it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 119.0/119.0 [00:03<00:00, 35.48it/s]
+Installation was successful.
+After restarting ComfyUI, please refresh the browser.
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+Install custom node 'WAS Node Suite'
+install: ['https://github.com/WASasquatch/was-node-suite-comfyui']
+Download: git clone 'https://github.com/WASasquatch/was-node-suite-comfyui'
+0it [00:00, ?it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 509.0/509.0 [00:01<00:00, 386.67it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 509.0/509.0 [00:01<00:00, 386.58it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 118.0/118.0 [00:01<00:00, 88.64it/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 118.0/118.0 [00:01<00:00, 88.63it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1933.0/1933.0 [00:02<00:00, 693.18it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1933.0/1933.0 [00:02<00:00, 693.16it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1225.0/1225.0 [00:02<00:00, 417.48it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1225.0/1225.0 [00:02<00:00, 417.47it/s]100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1225.0/1225.0 [00:03<00:00, 351.45it/s]
+Install: pip packages
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'cmake']
+ Collecting cmake
+   Obtaining dependency information for cmake from https://files.pythonhosted.org/packages/61/70/81b8feac4fd80dfdf90b145cc79eea632b349336adaa253a6f2deae072a1/cmake-3.28.1-py2.py3-none-macosx_10_10_universal2.macosx_10_10_x86_64.macosx_11_0_arm64.macosx_11_0_universal2.whl.metadata
+   Downloading cmake-3.28.1-py2.py3-none-macosx_10_10_universal2.macosx_10_10_x86_64.macosx_11_0_arm64.macosx_11_0_universal2.whl.metadata (6.3 kB)
+ Downloading cmake-3.28.1-py2.py3-none-macosx_10_10_universal2.macosx_10_10_x86_64.macosx_11_0_arm64.macosx_11_0_universal2.whl (48.5 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.5/48.5 MB 31.8 MB/s eta 0:00:00
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+ Installing collected packages: cmake
+ Successfully installed cmake-3.28.1
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'fairscale>=0.4.4']
+ Collecting fairscale>=0.4.4
+   Downloading fairscale-0.4.13.tar.gz (266 kB)
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 266.3/266.3 kB 7.5 MB/s eta 0:00:00
+   Installing build dependencies: started
+   Installing build dependencies: finished with status 'done'
+   Getting requirements to build wheel: started
+   Getting requirements to build wheel: finished with status 'done'
+   Installing backend dependencies: started
+   Installing backend dependencies: finished with status 'done'
+   Preparing metadata (pyproject.toml): started
+   Preparing metadata (pyproject.toml): finished with status 'done'
+ Requirement already satisfied: torch>=1.8.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from fairscale>=0.4.4) (2.3.0.dev20231221)
+ Requirement already satisfied: numpy>=1.22.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from fairscale>=0.4.4) (1.24.3)
+ Requirement already satisfied: filelock in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from torch>=1.8.0->fairscale>=0.4.4) (3.9.0)
+ Requirement already satisfied: typing-extensions>=4.8.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from torch>=1.8.0->fairscale>=0.4.4) (4.8.0)
+ Requirement already satisfied: sympy in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from torch>=1.8.0->fairscale>=0.4.4) (1.11.1)
+ Requirement already satisfied: networkx in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from torch>=1.8.0->fairscale>=0.4.4) (3.1)
+ Requirement already satisfied: jinja2 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from torch>=1.8.0->fairscale>=0.4.4) (3.1.2)
+ Requirement already satisfied: fsspec in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from torch>=1.8.0->fairscale>=0.4.4) (2023.10.0)
+ Requirement already satisfied: MarkupSafe>=2.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from jinja2->torch>=1.8.0->fairscale>=0.4.4) (2.1.1)
+ Requirement already satisfied: mpmath>=0.19 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from sympy->torch>=1.8.0->fairscale>=0.4.4) (1.3.0)
+ Building wheels for collected packages: fairscale
+   Building wheel for fairscale (pyproject.toml): started
+   Building wheel for fairscale (pyproject.toml): finished with status 'done'
+   Created wheel for fairscale: filename=fairscale-0.4.13-py3-none-any.whl size=332104 sha256=b3a0edc1c063bc4ea8398197537d44fa4a3e9784c9c3c1f4739d3bd3f39f23f0
+   Stored in directory: /Users/manfyegoh/Library/Caches/pip/wheels/95/ef/96/5044bde220b2ea299bdc6ec05051e0ef187fad45b341d1c273
+ Successfully built fairscale
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+ Installing collected packages: fairscale
+ Successfully installed fairscale-0.4.13
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'git+https://github.com/WASasquatch/img2texture.git']
+ Collecting git+https://github.com/WASasquatch/img2texture.git
+   Cloning https://github.com/WASasquatch/img2texture.git to /private/var/folders/w1/1ynw05bs6495zv3lbhvnzr8r0000gn/T/pip-req-build-y1bc4fzg
+[!]   Running command git clone --filter=blob:none --quiet https://github.com/WASasquatch/img2texture.git /private/var/folders/w1/1ynw05bs6495zv3lbhvnzr8r0000gn/T/pip-req-build-y1bc4fzg
+   Resolved https://github.com/WASasquatch/img2texture.git to commit a546609a915caf1dcb84a15bf44b5b639ad924e6
+   Preparing metadata (setup.py): started
+   Preparing metadata (setup.py): finished with status 'done'
+ Requirement already satisfied: pillow<10,>=9.2 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from img2texture==1.0.6) (9.4.0)
+ Building wheels for collected packages: img2texture
+   Building wheel for img2texture (setup.py): started
+   Building wheel for img2texture (setup.py): finished with status 'done'
+   Created wheel for img2texture: filename=img2texture-1.0.6-py3-none-any.whl size=8365 sha256=ede051fa45b455821ed9c90d0b59074ba21aaf802c43367f4ef31dbe6be9c328
+   Stored in directory: /private/var/folders/w1/1ynw05bs6495zv3lbhvnzr8r0000gn/T/pip-ephem-wheel-cache-d41ie6a4/wheels/3a/3b/e7/ebce81e2912d6a6e38372603eda3b92fa14d0c95eb2bb56e45
+ Successfully built img2texture
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+ Installing collected packages: img2texture
+ Successfully installed img2texture-1.0.6
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'git+https://github.com/WASasquatch/cstr']
+ Collecting git+https://github.com/WASasquatch/cstr
+   Cloning https://github.com/WASasquatch/cstr to /private/var/folders/w1/1ynw05bs6495zv3lbhvnzr8r0000gn/T/pip-req-build-ff1pdqxs
+[!]   Running command git clone --filter=blob:none --quiet https://github.com/WASasquatch/cstr /private/var/folders/w1/1ynw05bs6495zv3lbhvnzr8r0000gn/T/pip-req-build-ff1pdqxs
+   Resolved https://github.com/WASasquatch/cstr to commit 0520c29a18a7a869a6e5983861d6f7a4c86f8e9b
+   Preparing metadata (setup.py): started
+   Preparing metadata (setup.py): finished with status 'done'
+ Building wheels for collected packages: cstr
+   Building wheel for cstr (setup.py): started
+   Building wheel for cstr (setup.py): finished with status 'done'
+   Created wheel for cstr: filename=cstr-0.1.0-py3-none-any.whl size=2832 sha256=615f14afc2f993f547ddfd14a88c36898737710cbf7798052effcc0493e56e35
+   Stored in directory: /private/var/folders/w1/1ynw05bs6495zv3lbhvnzr8r0000gn/T/pip-ephem-wheel-cache-alw07bax/wheels/99/a1/f2/03f7c4ed7d0280528ae4a07e4dacd6d32a8ff90c1783a4c2e5
+ Successfully built cstr
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+ Installing collected packages: cstr
+ Successfully installed cstr-0.1.0
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'gitpython']
+ Requirement already satisfied: gitpython in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (3.1.40)
+ Requirement already satisfied: gitdb<5,>=4.0.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from gitpython) (4.0.11)
+ Requirement already satisfied: smmap<6,>=3.0.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from gitdb<5,>=4.0.1->gitpython) (5.0.1)
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'imageio']
+ Requirement already satisfied: imageio in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (2.31.1)
+ Requirement already satisfied: numpy in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from imageio) (1.24.3)
+ Requirement already satisfied: pillow>=8.3.2 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from imageio) (9.4.0)
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'joblib']
+ Requirement already satisfied: joblib in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (1.2.0)
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'matplotlib']
+ Requirement already satisfied: matplotlib in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (3.7.1)
+ Requirement already satisfied: contourpy>=1.0.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from matplotlib) (1.0.5)
+ Requirement already satisfied: cycler>=0.10 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from matplotlib) (0.11.0)
+ Requirement already satisfied: fonttools>=4.22.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from matplotlib) (4.45.1)
+ Requirement already satisfied: kiwisolver>=1.0.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from matplotlib) (1.4.4)
+ Requirement already satisfied: numpy>=1.20 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from matplotlib) (1.24.3)
+ Requirement already satisfied: packaging>=20.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from matplotlib) (23.2)
+ Requirement already satisfied: pillow>=6.2.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from matplotlib) (9.4.0)
+ Requirement already satisfied: pyparsing>=2.3.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from matplotlib) (3.0.9)
+ Requirement already satisfied: python-dateutil>=2.7 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from matplotlib) (2.8.2)
+ Requirement already satisfied: six>=1.5 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from python-dateutil>=2.7->matplotlib) (1.16.0)
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'numba']
+ Requirement already satisfied: numba in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (0.57.0)
+ Requirement already satisfied: llvmlite<0.41,>=0.40.0dev0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from numba) (0.40.0)
+ Requirement already satisfied: numpy<1.25,>=1.21 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from numba) (1.24.3)
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'numpy>=1.18.5, <1.25.0']
+ Requirement already satisfied: numpy<1.25.0,>=1.18.5 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (1.24.3)
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'opencv-python-headless[ffmpeg]<=4.7.0.72']
+ Collecting opencv-python-headless[ffmpeg]<=4.7.0.72
+   Downloading opencv_python_headless-4.7.0.72-cp37-abi3-macosx_11_0_arm64.whl (32.6 MB)
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 32.6/32.6 MB 3.6 MB/s eta 0:00:00
+[!] WARNING: opencv-python-headless 4.7.0.72 does not provide the extra 'ffmpeg'
+ Requirement already satisfied: numpy>=1.21.2 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from opencv-python-headless[ffmpeg]<=4.7.0.72) (1.24.3)
+[!] Installing collected packages: opencv-python-headless
+ DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+ Successfully installed opencv-python-headless-4.7.0.72
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'pilgram']
+ Collecting pilgram
+   Downloading pilgram-1.2.1-py3-none-any.whl (817 kB)
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 817.4/817.4 kB 8.7 MB/s eta 0:00:00
+ Requirement already satisfied: numpy in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from pilgram) (1.24.3)
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+ Installing collected packages: pilgram
+ Successfully installed pilgram-1.2.1
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'git+https://github.com/WASasquatch/ffmpy.git']
+ Collecting git+https://github.com/WASasquatch/ffmpy.git
+   Cloning https://github.com/WASasquatch/ffmpy.git to /private/var/folders/w1/1ynw05bs6495zv3lbhvnzr8r0000gn/T/pip-req-build-52m4c600
+[!]   Running command git clone --filter=blob:none --quiet https://github.com/WASasquatch/ffmpy.git /private/var/folders/w1/1ynw05bs6495zv3lbhvnzr8r0000gn/T/pip-req-build-52m4c600
+   Resolved https://github.com/WASasquatch/ffmpy.git to commit f000737698b387ffaeab7cd871b0e9185811230d
+   Preparing metadata (setup.py): started
+   Preparing metadata (setup.py): finished with status 'done'
+ Building wheels for collected packages: ffmpy
+   Building wheel for ffmpy (setup.py): started
+   Building wheel for ffmpy (setup.py): finished with status 'done'
+   Created wheel for ffmpy: filename=ffmpy-0.3.0-py3-none-any.whl size=5497 sha256=d873504ad964ad0d7070a34bc4ea356055be2b0b5c81a28fc5962497b94b3c7e
+   Stored in directory: /private/var/folders/w1/1ynw05bs6495zv3lbhvnzr8r0000gn/T/pip-ephem-wheel-cache-vsa8w00q/wheels/30/98/4f/464a8020203e4f2c1049cf1d48bd93f687e76bc34b6b378923
+ Successfully built ffmpy
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+ Installing collected packages: ffmpy
+ Successfully installed ffmpy-0.3.0
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'rembg']
+ Collecting rembg
+   Obtaining dependency information for rembg from https://files.pythonhosted.org/packages/55/6e/5a336d1308105fbe2a9738e7b99e79549628e80595d62142c4334e319b67/rembg-2.0.53-py3-none-any.whl.metadata
+   Downloading rembg-2.0.53-py3-none-any.whl.metadata (14 kB)
+ Requirement already satisfied: jsonschema in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from rembg) (4.17.3)
+ Requirement already satisfied: numpy in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from rembg) (1.24.3)
+ Collecting onnxruntime (from rembg)
+   Obtaining dependency information for onnxruntime from https://files.pythonhosted.org/packages/ea/28/1e1c9c3d16b1151ee00ffaee9834b0093f9c4eeb665641efead18643bb20/onnxruntime-1.16.3-cp311-cp311-macosx_11_0_arm64.whl.metadata
+   Downloading onnxruntime-1.16.3-cp311-cp311-macosx_11_0_arm64.whl.metadata (4.3 kB)
+ Requirement already satisfied: opencv-python-headless in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from rembg) (4.7.0.72)
+ Requirement already satisfied: pillow in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from rembg) (9.4.0)
+ Requirement already satisfied: pooch in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from rembg) (1.4.0)
+ Collecting pymatting (from rembg)
+   Obtaining dependency information for pymatting from https://files.pythonhosted.org/packages/46/aa/d7ff530c33c654263d8775ceb50a73f636fc65edbdf09e102c47a3be391b/PyMatting-1.1.12-py3-none-any.whl.metadata
+   Downloading PyMatting-1.1.12-py3-none-any.whl.metadata (7.4 kB)
+ Requirement already satisfied: scikit-image in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from rembg) (0.20.0)
+ Requirement already satisfied: scipy in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from rembg) (1.10.1)
+ Requirement already satisfied: tqdm in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from rembg) (4.65.0)
+ Requirement already satisfied: attrs>=17.4.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from jsonschema->rembg) (22.1.0)
+ Requirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from jsonschema->rembg) (0.18.0)
+ Collecting coloredlogs (from onnxruntime->rembg)
+   Downloading coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.0/46.0 kB 2.6 MB/s eta 0:00:00
+ Collecting flatbuffers (from onnxruntime->rembg)
+   Obtaining dependency information for flatbuffers from https://files.pythonhosted.org/packages/6f/12/d5c79ee252793ffe845d58a913197bfa02ae9a0b5c9bc3dc4b58d477b9e7/flatbuffers-23.5.26-py2.py3-none-any.whl.metadata
+   Downloading flatbuffers-23.5.26-py2.py3-none-any.whl.metadata (850 bytes)
+ Requirement already satisfied: packaging in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from onnxruntime->rembg) (23.2)
+ Requirement already satisfied: protobuf in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from onnxruntime->rembg) (4.21.12)
+ Requirement already satisfied: sympy in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from onnxruntime->rembg) (1.11.1)
+ Requirement already satisfied: requests in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from pooch->rembg) (2.31.0)
+ Requirement already satisfied: appdirs in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from pooch->rembg) (1.4.4)
+ Requirement already satisfied: numba!=0.49.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from pymatting->rembg) (0.57.0)
+ Requirement already satisfied: networkx>=2.8 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scikit-image->rembg) (3.1)
+ Requirement already satisfied: imageio>=2.4.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scikit-image->rembg) (2.31.1)
+ Requirement already satisfied: tifffile>=2019.7.26 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scikit-image->rembg) (2021.7.2)
+ Requirement already satisfied: PyWavelets>=1.1.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scikit-image->rembg) (1.4.1)
+ Requirement already satisfied: lazy_loader>=0.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scikit-image->rembg) (0.2)
+ Requirement already satisfied: llvmlite<0.41,>=0.40.0dev0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from numba!=0.49.0->pymatting->rembg) (0.40.0)
+ Collecting humanfriendly>=9.1 (from coloredlogs->onnxruntime->rembg)
+   Downloading humanfriendly-10.0-py2.py3-none-any.whl (86 kB)
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.8/86.8 kB 8.7 MB/s eta 0:00:00
+ Requirement already satisfied: charset-normalizer<4,>=2 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from requests->pooch->rembg) (2.0.4)
+ Requirement already satisfied: idna<4,>=2.5 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from requests->pooch->rembg) (3.4)
+ Requirement already satisfied: urllib3<3,>=1.21.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from requests->pooch->rembg) (1.26.16)
+ Requirement already satisfied: certifi>=2017.4.17 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from requests->pooch->rembg) (2023.7.22)
+ Requirement already satisfied: mpmath>=0.19 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from sympy->onnxruntime->rembg) (1.3.0)
+ Downloading rembg-2.0.53-py3-none-any.whl (32 kB)
+ Downloading onnxruntime-1.16.3-cp311-cp311-macosx_11_0_arm64.whl (6.2 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.2/6.2 MB 40.4 MB/s eta 0:00:00
+ Downloading PyMatting-1.1.12-py3-none-any.whl (52 kB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.0/53.0 kB 10.3 MB/s eta 0:00:00
+ Downloading flatbuffers-23.5.26-py2.py3-none-any.whl (26 kB)
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+ Installing collected packages: flatbuffers, humanfriendly, pymatting, coloredlogs, onnxruntime, rembg
+ Successfully installed coloredlogs-15.0.1 flatbuffers-23.5.26 humanfriendly-10.0 onnxruntime-1.16.3 pymatting-1.1.12 rembg-2.0.53
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'scikit-image==0.20.0']
+ Requirement already satisfied: scikit-image==0.20.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (0.20.0)
+ Requirement already satisfied: numpy>=1.21.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scikit-image==0.20.0) (1.24.3)
+ Requirement already satisfied: scipy>=1.8 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scikit-image==0.20.0) (1.10.1)
+ Requirement already satisfied: networkx>=2.8 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scikit-image==0.20.0) (3.1)
+ Requirement already satisfied: pillow>=9.0.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scikit-image==0.20.0) (9.4.0)
+ Requirement already satisfied: imageio>=2.4.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scikit-image==0.20.0) (2.31.1)
+ Requirement already satisfied: tifffile>=2019.7.26 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scikit-image==0.20.0) (2021.7.2)
+ Requirement already satisfied: PyWavelets>=1.1.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scikit-image==0.20.0) (1.4.1)
+ Requirement already satisfied: packaging>=20.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scikit-image==0.20.0) (23.2)
+ Requirement already satisfied: lazy_loader>=0.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scikit-image==0.20.0) (0.2)
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'scikit-learn']
+ Requirement already satisfied: scikit-learn in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (1.2.2)
+ Requirement already satisfied: numpy>=1.17.3 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scikit-learn) (1.24.3)
+ Requirement already satisfied: scipy>=1.3.2 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scikit-learn) (1.10.1)
+ Requirement already satisfied: joblib>=1.1.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scikit-learn) (1.2.0)
+ Requirement already satisfied: threadpoolctl>=2.0.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scikit-learn) (2.2.0)
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'scipy']
+ Requirement already satisfied: scipy in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (1.10.1)
+ Requirement already satisfied: numpy<1.27.0,>=1.19.5 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from scipy) (1.24.3)
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'timm>=0.4.12']
+ Collecting timm>=0.4.12
+   Obtaining dependency information for timm>=0.4.12 from https://files.pythonhosted.org/packages/01/a5/eeb717242343d9ca34e7de554a6c08d96a0cfc7005ece4f847b1753581a6/timm-0.9.12-py3-none-any.whl.metadata
+   Downloading timm-0.9.12-py3-none-any.whl.metadata (60 kB)
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.6/60.6 kB 3.1 MB/s eta 0:00:00
+ Requirement already satisfied: torch>=1.7 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from timm>=0.4.12) (2.3.0.dev20231221)
+ Requirement already satisfied: torchvision in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from timm>=0.4.12) (0.18.0.dev20231221)
+ Requirement already satisfied: pyyaml in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from timm>=0.4.12) (6.0)
+ Requirement already satisfied: huggingface-hub in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from timm>=0.4.12) (0.19.4)
+ Requirement already satisfied: safetensors in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from timm>=0.4.12) (0.3.2)
+ Requirement already satisfied: filelock in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from torch>=1.7->timm>=0.4.12) (3.9.0)
+ Requirement already satisfied: typing-extensions>=4.8.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from torch>=1.7->timm>=0.4.12) (4.8.0)
+ Requirement already satisfied: sympy in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from torch>=1.7->timm>=0.4.12) (1.11.1)
+ Requirement already satisfied: networkx in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from torch>=1.7->timm>=0.4.12) (3.1)
+ Requirement already satisfied: jinja2 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from torch>=1.7->timm>=0.4.12) (3.1.2)
+ Requirement already satisfied: fsspec in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from torch>=1.7->timm>=0.4.12) (2023.10.0)
+ Requirement already satisfied: requests in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from huggingface-hub->timm>=0.4.12) (2.31.0)
+ Requirement already satisfied: tqdm>=4.42.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from huggingface-hub->timm>=0.4.12) (4.65.0)
+ Requirement already satisfied: packaging>=20.9 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from huggingface-hub->timm>=0.4.12) (23.2)
+ Requirement already satisfied: numpy in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from torchvision->timm>=0.4.12) (1.24.3)
+ Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from torchvision->timm>=0.4.12) (9.4.0)
+ Requirement already satisfied: MarkupSafe>=2.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from jinja2->torch>=1.7->timm>=0.4.12) (2.1.1)
+ Requirement already satisfied: charset-normalizer<4,>=2 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from requests->huggingface-hub->timm>=0.4.12) (2.0.4)
+ Requirement already satisfied: idna<4,>=2.5 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from requests->huggingface-hub->timm>=0.4.12) (3.4)
+ Requirement already satisfied: urllib3<3,>=1.21.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from requests->huggingface-hub->timm>=0.4.12) (1.26.16)
+ Requirement already satisfied: certifi>=2017.4.17 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from requests->huggingface-hub->timm>=0.4.12) (2023.7.22)
+ Requirement already satisfied: mpmath>=0.19 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from sympy->torch>=1.7->timm>=0.4.12) (1.3.0)
+ Downloading timm-0.9.12-py3-none-any.whl (2.2 MB)
+    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 25.9 MB/s eta 0:00:00
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+ Installing collected packages: timm
+ Successfully installed timm-0.9.12
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'tqdm']
+ Requirement already satisfied: tqdm in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (4.65.0)
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'transformers==4.26.1']
+ Collecting transformers==4.26.1
+   Downloading transformers-4.26.1-py3-none-any.whl (6.3 MB)
+      ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 31.6 MB/s eta 0:00:00
+ Requirement already satisfied: filelock in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from transformers==4.26.1) (3.9.0)
+ Requirement already satisfied: huggingface-hub<1.0,>=0.11.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from transformers==4.26.1) (0.19.4)
+ Requirement already satisfied: numpy>=1.17 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from transformers==4.26.1) (1.24.3)
+ Requirement already satisfied: packaging>=20.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from transformers==4.26.1) (23.2)
+ Requirement already satisfied: pyyaml>=5.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from transformers==4.26.1) (6.0)
+ Requirement already satisfied: regex!=2019.12.17 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from transformers==4.26.1) (2022.7.9)
+ Requirement already satisfied: requests in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from transformers==4.26.1) (2.31.0)
+ Collecting tokenizers!=0.11.3,<0.14,>=0.11.1 (from transformers==4.26.1)
+   Using cached tokenizers-0.13.3-cp311-cp311-macosx_12_0_arm64.whl (3.9 MB)
+ Requirement already satisfied: tqdm>=4.27 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from transformers==4.26.1) (4.65.0)
+ Requirement already satisfied: fsspec>=2023.5.0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from huggingface-hub<1.0,>=0.11.0->transformers==4.26.1) (2023.10.0)
+ Requirement already satisfied: typing-extensions>=3.7.4.3 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from huggingface-hub<1.0,>=0.11.0->transformers==4.26.1) (4.8.0)
+ Requirement already satisfied: charset-normalizer<4,>=2 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from requests->transformers==4.26.1) (2.0.4)
+ Requirement already satisfied: idna<4,>=2.5 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from requests->transformers==4.26.1) (3.4)
+ Requirement already satisfied: urllib3<3,>=1.21.1 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from requests->transformers==4.26.1) (1.26.16)
+ Requirement already satisfied: certifi>=2017.4.17 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from requests->transformers==4.26.1) (2023.7.22)
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+ Installing collected packages: tokenizers, transformers
+   Attempting uninstall: tokenizers
+     Found existing installation: tokenizers 0.15.0
+     Uninstalling tokenizers-0.15.0:
+       Successfully uninstalled tokenizers-0.15.0
+   Attempting uninstall: transformers
+     Found existing installation: transformers 4.35.2
+     Uninstalling transformers-4.35.2:
+       Successfully uninstalled transformers-4.35.2
+ Successfully installed tokenizers-0.13.3 transformers-4.26.1
+Installation was successful.
+
+## ComfyUI-Manager: EXECUTE => ['/Users/manfyegoh/Applications/Anaconda/anaconda3/bin/python', '-m', 'pip', 'install', 'numba']
+ Requirement already satisfied: numba in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (0.57.0)
+ Requirement already satisfied: llvmlite<0.41,>=0.40.0dev0 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from numba) (0.40.0)
+ Requirement already satisfied: numpy<1.25,>=1.21 in /Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages (from numba) (1.24.3)
+[!] DEPRECATION: torchsde 0.2.5 has a non-standard dependency specifier numpy>=1.19.*; python_version >= "3.7". pip 23.3 will enforce this behaviour change. A possible replacement is to upgrade to a newer version of torchsde or contact the author to suggest that they release a version with a conforming dependency specifiers. Discussion can be found at https://github.com/pypa/pip/issues/12063
+After restarting ComfyUI, please refresh the browser.
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+FETCH DATA from: /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+Install custom node 'AlekPet/ComfyUI_Custom_Nodes_AlekPet'
+install: ['https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet']
+Download: git clone 'https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet'
+0it [00:00, ?it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 76.0/76.0 [00:01<00:00, 61.01it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 76.0/76.0 [00:01<00:00, 60.99it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 49.0/49.0 [00:01<00:00, 39.12it/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 49.0/49.0 [00:01<00:00, 39.12it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 572.0/572.0 [00:01<00:00, 378.95it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 572.0/572.0 [00:01<00:00, 378.93it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 309.0/309.0 [00:01<00:00, 204.02it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 309.0/309.0 [00:01<00:00, 204.01it/s]100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 309.0/309.0 [00:02<00:00, 154.31it/s]
+Installation was successful.
+After restarting ComfyUI, please refresh the browser.
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
