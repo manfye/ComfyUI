@@ -1,39 +1,11 @@
-** ComfyUI start up time: 2023-12-22 08:49:26.098794
+** ComfyUI start up time: 2024-01-11 13:49:17.962095
 
 Prestartup times for custom nodes:
    0.0 seconds: /Volumes/Mac_Store/ComfyUI/custom_nodes/ComfyUI-Manager
 
-Total VRAM 24576 MB, total RAM 24576 MB
-Forcing FP16.
-Set vram state to: SHARED
-Device: mps
-VAE dtype: torch.float32
-Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
-### Loading: ComfyUI-Manager (V1.5.2)
-### ComfyUI Revision: 1851 [0834068f] | Released on '2023-12-22'
-[34mWAS Node Suite: [0mCreated default conf file at `/Volumes/Mac_Store/ComfyUI/custom_nodes/was-node-suite-comfyui/was_suite_config.json`.[0m
 Traceback (most recent call last):
-  File "/Volumes/Mac_Store/ComfyUI/main.py", line 187, in <module>
-    init_custom_nodes()
-  File "/Volumes/Mac_Store/ComfyUI/nodes.py", line 1891, in init_custom_nodes
-    load_custom_nodes()
-  File "/Volumes/Mac_Store/ComfyUI/nodes.py", line 1849, in load_custom_nodes
-    success = load_custom_node(module_path, base_node_names)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Volumes/Mac_Store/ComfyUI/nodes.py", line 1813, in load_custom_node
-    module_spec.loader.exec_module(module)
-  File "<frozen importlib._bootstrap_external>", line 940, in exec_module
-  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
-  File "/Volumes/Mac_Store/ComfyUI/custom_nodes/was-node-suite-comfyui/__init__.py", line 1, in <module>
-    from .WAS_Node_Suite import NODE_CLASS_MAPPINGS
-  File "/Volumes/Mac_Store/ComfyUI/custom_nodes/was-node-suite-comfyui/WAS_Node_Suite.py", line 13753, in <module>
-    import cv2
-  File "/Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages/cv2/__init__.py", line 181, in <module>
-    bootstrap()
-  File "/Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/site-packages/cv2/__init__.py", line 153, in bootstrap
-    native_module = importlib.import_module("cv2")
-                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/manfyegoh/Applications/Anaconda/anaconda3/lib/python3.11/importlib/__init__.py", line 126, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-KeyboardInterrupt
+  File "/Volumes/Mac_Store/ComfyUI/main.py", line 73, in <module>
+    import comfy.utils
+  File "/Volumes/Mac_Store/ComfyUI/comfy/utils.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'
